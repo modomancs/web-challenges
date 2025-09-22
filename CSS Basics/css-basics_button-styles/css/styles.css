@@ -1,0 +1,70 @@
+/* Please scroll down to the start of your exercise! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+section {
+  background-color: lemonchiffon;
+  display: grid;
+  place-items: center;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+button {
+  background-color: white;
+  padding: 8px 25px;
+}
+
+/* Your exercise starts here. */
+
+/* Add your CSS styles below this line. Feel free to replace the comments with your code. 
+Make sure not to put your code into the comments, because then nothing will happen. */
+
+.button1 {
+  border: 30px solid blue;
+  border-radius: 24px;
+  color: gold;
+  font-size: 26px;
+  font-style: initial;
+  text-align: left;
+  background-color: magenta;
+  /* Style me! Change my border, set a border radius or try out other styles. :) */
+}
+
+.button2 {
+  background-color: rgba(181, 245, 6, 0.158);
+  color: rgba(135, 95, 230, 0.479);
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* Style me! Change my color or background-color, or both! You can experiment with different color formats here, like HEX, RGB, etc. */
+}
+
+.button3 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: olive;
+  color: blue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  /* Style me! You can test out changing the font, font size, ...*/
+}
+
+.button4 {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  font-size: 40px;
+
+  /* Style me! Can you add a shadow to this button? Try playing around with shadow properties - you can even change the shadow color, size, and more. */
+}
+
+/* Feel free to play around with other properties, too. */
