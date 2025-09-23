@@ -87,7 +87,7 @@ body {
 
 /**
  * Position the go-to-top button so that it covers all other elements, ensuring it is always visible
- * and remains fixed in place when the document is scrolled.
+ * and remains fixed in place when the document is scrolled
  */
 .goto-top {
   text-decoration: none;
