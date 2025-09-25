@@ -1,0 +1,24 @@
+@import "./theme.css";
+@import "./header.css";
+@import "./main-content.css";
+@import "./card.css";
+@import "./button.css";
+@import "./footer.css";
+
+/* -------------------------------------------------------- */
+/* Global Styles */
+/* -------------------------------------------------------- */
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--body-bg);
+}

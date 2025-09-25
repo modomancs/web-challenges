@@ -1,0 +1,8 @@
+.footer {
+  color: white;
+  background-color: blue;
+  width: 19%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 90%;
+}
