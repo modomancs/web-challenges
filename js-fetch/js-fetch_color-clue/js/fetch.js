@@ -24,8 +24,8 @@ export async function fetchNewColor() {
   console.log(data.name.closest_named_hex);
   console.log(data.name.value);
 
-  const closestHex = "#C7031E";
-  const nameValue = "Monza";
+  const closestHex = data.hex.value;
+  const nameValue = data.name.value;
   setColorToGuess(closestHex, nameValue);
   // --^-- your code here --^--
 }
