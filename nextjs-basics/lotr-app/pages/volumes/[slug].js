@@ -62,6 +62,18 @@ const StyledAllVolumesLink = styled(Link)`
     font-size: 18px;
   }
 `;
+const StyledBookList = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+  display: inline-block;
+`;
+
+const StyledBookItem = styled.li`
+  margin: 6px 0;
+  font-size: 1.1rem;
+`;
 
 export default function VolumeDetail() {
   const router = useRouter();
@@ -82,13 +94,13 @@ export default function VolumeDetail() {
       <StyledAllVolumesLink href="/">All Volumes</StyledAllVolumesLink>
       <h1>{title}</h1>
       <p>{description}</p>
-      <ul>
+      <StyledBookList>
         {books.map((book) => (
-          <li key={book.ordinal}>
+          <StyledBookItem key={book.ordinal}>
             {book.ordinal}: {book.title}
-          </li>
+          </StyledBookItem>
         ))}
-      </ul>
+      </StyledBookList>
 
       <StyledImage src={cover} alt={title} width={140} height={230} />
       <StyledNav>
